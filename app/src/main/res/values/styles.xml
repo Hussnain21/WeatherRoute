@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <!-- Customize other attributes as needed -->
+        <item name="hintEnabled">true</item>
+        <item name="hintTextAppearance">@style/CustomHintTextAppearance</item>
+        <item name="helperTextTextAppearance">@style/CustomHelperTextAppearance</item>
+    </style>
+
+    <style name="CustomHintTextAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">12sp</item>
+        <!-- Customize other hint attributes -->
+    </style>
+
+    <style name="CustomHelperTextAppearance" parent="TextAppearance.Design.HelperText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <!-- Customize other helper text attributes -->
+    </style>
+</resources>
