@@ -31,7 +31,7 @@ o	Obtain an API key.
 1.	Clone the repository:
 bash
 ### Copy code
-git clone https://github.com/yourusername/weather-maps-app.git
+git clone https://github.com/Hussnain21/WeatherRoute.git 
 cd weather-maps-app
 2.	Configure API keys:
 o	Create a configuration file (e.g., config.properties) in the src/main/resources directory.
