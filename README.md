@@ -1,5 +1,5 @@
-Weather and Maps Application
-Overview
+# Weather and Maps Application
+## Overview
 This Java application integrates two powerful APIs—Weather API and Google Maps API—to provide users with a range of functionalities, including:
 
 Weather Information: Search and retrieve current weather details by entering city names.
