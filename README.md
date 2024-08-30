@@ -36,17 +36,12 @@ cd weather-maps-app
 2.	Configure API keys:
 o	Create a configuration file (e.g., config.properties) in the src/main/resources directory.
 o	Add your API keys to this file:
-## properties
-### Copy code
-weather.api.key=YOUR_WEATHER_API_KEY
-google.maps.api.key=YOUR_GOOGLE_MAPS_API_KEY
-3.	Build the application:
+## Properties
+#### Build the application:
 bash
-Copy code
 mvn clean install
-4.	Run the application:
+#### Run the application:
 bash
-Copy code
 java -jar target/weather-maps-app-1.0.jar
 ## Usage
 ## Weather Search
